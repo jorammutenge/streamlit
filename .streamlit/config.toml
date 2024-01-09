@@ -12,5 +12,5 @@ secondaryBackgroundColor = "#243039"
 textColor = "#FFF"
 
 # Font family for all text in the app, except code blocks. Specify "Poppins" for the desired font.
-font = "Poppins"
+font = "Roboto"
 
