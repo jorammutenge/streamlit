@@ -2,6 +2,9 @@ import streamlit as st
 import polars as pl
 import plotly.express as px
 
+with open( "styles.css" ) as css:
+    st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)
+
 st.set_page_config(page_title='Acquired Episode Tracker', layout='wide', page_icon=':bar_chart:')
 
 @st.cache_data
